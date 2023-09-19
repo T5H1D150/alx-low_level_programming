@@ -1,11 +1,12 @@
 #include <stdio.h>
 
-/*
- * main - Print letters of the alphabet
+/**
+ * main - Entry Point
  *
  * Return: 0 Always
  *
  */
+
 int main(void)
 {
 	char i;
