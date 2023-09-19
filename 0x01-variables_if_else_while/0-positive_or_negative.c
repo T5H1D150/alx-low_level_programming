@@ -1,11 +1,11 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/*
- * main - Entry Point
- * Function to test if random number is pos or neg
+/**
+ * main - Pos or Neg
  *
  * Return: 0 Always
+ *
  */
 
 int main(void)
