@@ -1,13 +1,22 @@
-#include <stdio.h>
+#include "main.h"
+
 /**
- * main - entry point
+ * main - print _putchar
  *
- * Return: 0 Always
+ * Return: 0 always
  *
  */
 
 int main(void)
 {
-	printf("_putchar \n");
+	int i;
+
+	char q[] = "_putchar";
+
+		for (i = 0 ; i <= 7 ; i++)
+		{
+		_putchar(q[i]);
+		}
+	_putchar('\n');
 	return (0);
 }
