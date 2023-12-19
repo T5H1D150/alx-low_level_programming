@@ -2,12 +2,11 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main - Pos or Neg
- *
+ * main - Entry point
  * Return: 0 Always
  *
  */
-
+/* betty style doc for function main goes there */
 int main(void)
 {
 	int n;
