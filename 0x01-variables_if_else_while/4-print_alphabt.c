@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - Entry Point
+ * main - Entry point
  *
  * Return: 0 Always
  *
@@ -8,16 +8,13 @@
 
 int main(void)
 {
-	char ALP = 'a';
+        char alpha;
 
-	while (ALP <= 'z')
-	{
-		if (ALP != 'e' && ALP != 'q')
-		{
-		putchar(ALP);
-		ALP++;
-		}
-	}
-	putchar('\n');
-	return (0);
+        for (alpha = 'a' ; alpha <= 'z' ; alpha++)
+                if (alpha != 'q' && alpha != 'e')
+                {
+                putchar(alpha);
+                }
+        putchar('\n');
+        return (0);
 }
